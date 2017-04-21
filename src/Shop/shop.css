@@ -1,0 +1,24 @@
+h1, h2 {
+  margin: 0.8em auto;
+}
+
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.cart {
+  flex-basis: 100%;
+  flex-direction: row;
+  height: 150px;
+  border: 1px solid grey;
+}
+
+.product {
+  flex-basis: 28%;
+  height: 100px;
+  border: 1px solid grey;
+  margin: 1.5%;
+  padding: 0.5em;
+}
